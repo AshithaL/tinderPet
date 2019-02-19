@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D568BDC220E9EF00094F783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D568BDB220E9EF00094F783 /* AppDelegate.swift */; };
+		3D568BDE220E9EF00094F783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D568BDD220E9EF00094F783 /* ViewController.swift */; };
+		3D568BE1220E9EF00094F783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D568BDF220E9EF00094F783 /* Main.storyboard */; };
+		3D568BE3220E9EF10094F783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D568BE2220E9EF10094F783 /* Assets.xcassets */; };
+		3D568BE6220E9EF10094F783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D568BE4220E9EF10094F783 /* LaunchScreen.storyboard */; };
+		3DED228B2215732C003D5D49 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DED228A2215732C003D5D49 /* Card.swift */; };
+		3DED228D2215746A003D5D49 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DED228C2215746A003D5D49 /* Card.xib */; };
+		3DED229222158F62003D5D49 /* tableLikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DED229122158F62003D5D49 /* tableLikedViewController.swift */; };
+		3DED22962215A0B4003D5D49 /* likedPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DED22952215A0B4003D5D49 /* likedPets.swift */; };
+		3DFB7D0722140BFE008C6D13 /* tokenFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB7D0622140BFE008C6D13 /* tokenFile.swift */; };
+		3DFB7D0B22142A00008C6D13 /* PoiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB7D0A22142A00008C6D13 /* PoiViewController.swift */; };
+		3DFB7D1322143B2B008C6D13 /* retrivePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB7D1222143B2B008C6D13 /* retrivePets.swift */; };
+		9B4E3AD48E49F7DD92AC22E0 /* Pods_tinderPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5247276FAB8CD4EFEC14F261 /* Pods_tinderPet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C607C93F20518615AA78EE /* Pods-tinderPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderPet.release.xcconfig"; path = "Target Support Files/Pods-tinderPet/Pods-tinderPet.release.xcconfig"; sourceTree = "<group>"; };
+		3D568BD8220E9EF00094F783 /* tinderPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D568BDB220E9EF00094F783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D568BDD220E9EF00094F783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D568BE0220E9EF00094F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D568BE2220E9EF10094F783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D568BE5220E9EF10094F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D568BE7220E9EF10094F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DED228A2215732C003D5D49 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3DED228C2215746A003D5D49 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		3DED229122158F62003D5D49 /* tableLikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableLikedViewController.swift; sourceTree = "<group>"; };
+		3DED22952215A0B4003D5D49 /* likedPets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = likedPets.swift; sourceTree = "<group>"; };
+		3DFB7D0622140BFE008C6D13 /* tokenFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokenFile.swift; sourceTree = "<group>"; };
+		3DFB7D0A22142A00008C6D13 /* PoiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiViewController.swift; sourceTree = "<group>"; };
+		3DFB7D1222143B2B008C6D13 /* retrivePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retrivePets.swift; sourceTree = "<group>"; };
+		5247276FAB8CD4EFEC14F261 /* Pods_tinderPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AE8352AC1331AD4DC26337 /* Pods-tinderPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderPet.debug.xcconfig"; path = "Target Support Files/Pods-tinderPet/Pods-tinderPet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D568BD5220E9EF00094F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4E3AD48E49F7DD92AC22E0 /* Pods_tinderPet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D568BCF220E9EF00094F783 = {
+			isa = PBXGroup;
+			children = (
+				3D568BDA220E9EF00094F783 /* tinderPet */,
+				3D568BD9220E9EF00094F783 /* Products */,
+				E7124EFE19B66C04A44A62CA /* Pods */,
+				7C0084624FA7269B59F51036 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D568BD9220E9EF00094F783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D568BD8220E9EF00094F783 /* tinderPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D568BDA220E9EF00094F783 /* tinderPet */ = {
+			isa = PBXGroup;
+			children = (
+				3DED228C2215746A003D5D49 /* Card.xib */,
+				3DED228A2215732C003D5D49 /* Card.swift */,
+				3D568BDB220E9EF00094F783 /* AppDelegate.swift */,
+				3D568BDD220E9EF00094F783 /* ViewController.swift */,
+				3D568BDF220E9EF00094F783 /* Main.storyboard */,
+				3D568BE2220E9EF10094F783 /* Assets.xcassets */,
+				3D568BE4220E9EF10094F783 /* LaunchScreen.storyboard */,
+				3D568BE7220E9EF10094F783 /* Info.plist */,
+				3DFB7D0622140BFE008C6D13 /* tokenFile.swift */,
+				3DFB7D0A22142A00008C6D13 /* PoiViewController.swift */,
+				3DFB7D1222143B2B008C6D13 /* retrivePets.swift */,
+				3DED22952215A0B4003D5D49 /* likedPets.swift */,
+				3DED229122158F62003D5D49 /* tableLikedViewController.swift */,
+			);
+			path = tinderPet;
+			sourceTree = "<group>";
+		};
+		7C0084624FA7269B59F51036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5247276FAB8CD4EFEC14F261 /* Pods_tinderPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7124EFE19B66C04A44A62CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64AE8352AC1331AD4DC26337 /* Pods-tinderPet.debug.xcconfig */,
+				06C607C93F20518615AA78EE /* Pods-tinderPet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D568BD7220E9EF00094F783 /* tinderPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D568BEA220E9EF10094F783 /* Build configuration list for PBXNativeTarget "tinderPet" */;
+			buildPhases = (
+				F41C877F38EEC0C46EE56C91 /* [CP] Check Pods Manifest.lock */,
+				3D568BD4220E9EF00094F783 /* Sources */,
+				3D568BD5220E9EF00094F783 /* Frameworks */,
+				3D568BD6220E9EF00094F783 /* Resources */,
+				5E6BA790A53D0047B898F3E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinderPet;
+			productName = tinderPet;
+			productReference = 3D568BD8220E9EF00094F783 /* tinderPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D568BD0220E9EF00094F783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					jk,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ashitha L";
+				TargetAttributes = {
+					3D568BD7220E9EF00094F783 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D568BD3220E9EF00094F783 /* Build configuration list for PBXProject "TinderPet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D568BCF220E9EF00094F783;
+			productRefGroup = 3D568BD9220E9EF00094F783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D568BD7220E9EF00094F783 /* tinderPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D568BD6220E9EF00094F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D568BE6220E9EF10094F783 /* LaunchScreen.storyboard in Resources */,
+				3D568BE3220E9EF10094F783 /* Assets.xcassets in Resources */,
+				3D568BE1220E9EF00094F783 /* Main.storyboard in Resources */,
+				3DED228D2215746A003D5D49 /* Card.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E6BA790A53D0047B898F3E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinderPet/Pods-tinderPet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Poi/Poi.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Poi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tinderPet/Pods-tinderPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41C877F38EEC0C46EE56C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tinderPet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D568BD4220E9EF00094F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D568BDE220E9EF00094F783 /* ViewController.swift in Sources */,
+				3DED228B2215732C003D5D49 /* Card.swift in Sources */,
+				3DED229222158F62003D5D49 /* tableLikedViewController.swift in Sources */,
+				3DFB7D1322143B2B008C6D13 /* retrivePets.swift in Sources */,
+				3DFB7D0B22142A00008C6D13 /* PoiViewController.swift in Sources */,
+				3D568BDC220E9EF00094F783 /* AppDelegate.swift in Sources */,
+				3DFB7D0722140BFE008C6D13 /* tokenFile.swift in Sources */,
+				3DED22962215A0B4003D5D49 /* likedPets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D568BDF220E9EF00094F783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D568BE0220E9EF00094F783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D568BE4220E9EF10094F783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D568BE5220E9EF10094F783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D568BE8220E9EF10094F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D568BE9220E9EF10094F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D568BEB220E9EF10094F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AE8352AC1331AD4DC26337 /* Pods-tinderPet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CM3HX6AN4;
+				INFOPLIST_FILE = tinderPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashitha.tinderPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D568BEC220E9EF10094F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C607C93F20518615AA78EE /* Pods-tinderPet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CM3HX6AN4;
+				INFOPLIST_FILE = tinderPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashitha.tinderPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D568BD3220E9EF00094F783 /* Build configuration list for PBXProject "TinderPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D568BE8220E9EF10094F783 /* Debug */,
+				3D568BE9220E9EF10094F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D568BEA220E9EF10094F783 /* Build configuration list for PBXNativeTarget "tinderPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D568BEB220E9EF10094F783 /* Debug */,
+				3D568BEC220E9EF10094F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D568BD0220E9EF00094F783 /* Project object */;
+}
